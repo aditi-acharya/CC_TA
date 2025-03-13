@@ -26,7 +26,7 @@ pipeline {
 
     post {
         failure {
-            echo 'Pipeline Failed'
+            echo 'Pipeline Failed!'
         }
     }
 }
